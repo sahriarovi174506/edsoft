@@ -1,0 +1,367 @@
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about_row .col-lg-6 > img {
+    width: 430px;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (min-width: 991px) {
+  .container_lg {
+    width: 100%;
+    max-width: 1410px;
+  }
+  .px_30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* --------- Navbar -------- */
+  .navbar {
+    height: 90px;
+    padding: 0;
+  }
+  .navbar .container {
+    height: 100%;
+  }
+  .navbar-collapse ul {
+    justify-content: center !important;
+  }
+  .navbar-collapse {
+    height: 100%;
+  }
+  .navbar-nav {
+    gap: 55px;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (max-width: 991px) {
+  br {
+    display: none;
+  }
+  .title_box {
+    padding-bottom: 30px;
+  }
+  .title_65 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .title_50 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .title_40 {
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .title_32 {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .title_22 {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .text_20 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .text_18 {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .text_50 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  /* ------------- Mobile Menu --------------- */
+  .navbar {
+    padding: 15px 0;
+  }
+  main {
+    padding-top: 80px;
+  }
+  .navbar-collapse {
+    padding-top: 15px;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+  }
+  .navbar-collapse.show {
+    display: block;
+    opacity: 0;
+  }
+  .navbar-collapse.show.fadein {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .navbar-collapse li .nav-link {
+    border-bottom: 1px solid #dcddcfc0;
+    height: 50px;
+  }
+  .navbar-collapse li:last-child .nav-link {
+    border-bottom: 1px solid transparent;
+  }
+  /* ------------- Hero Section ---------------- */
+  .header_cont {
+    text-align: center;
+  }
+  /* ------------- About Section ------------------- */
+  .about_content {
+    padding: 40px 30px;
+  }
+  .about_row .col-lg-6 > img {
+    width: 100%;
+  }
+  /* ------------- Sponsor Section ---------------- */
+  .sponsor_cont {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* ------------- Core Section ----------------- */
+  .core_cont {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  /* ------------- Counter Section ---------------- */
+  .counter_boxes {
+    grid-template-columns: 1fr;
+  }
+  /* -------------- feature_section --------------- */
+  .feature_section {
+    flex-direction: column;
+  }
+  .feature_section1.feature_section {
+    flex-direction: column-reverse;
+  }
+  .fifty_percent {
+    width: 100%;
+  }
+  .feature_cont {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  /* ------------- Tab Slider ------------------- */
+  .tab_slide {
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+  }
+  .tab_slide_nav {
+    justify-content: center;
+  }
+  .tab_slide_nav button {
+    font-size: 25px;
+  }
+  /* -------------- footer Section ---------------- */
+  .footer_contents {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+@media (max-width: 767px) {
+  /* ------------ Common Classes ------------- */
+  body {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .title_65 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .title_50 {
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .title_40 {
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .title_32 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .title_22 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .text_20 {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .text_18 {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  .text_50 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .title_28 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+  /* ------------- hero_section ---------------- */
+  .hero_section {
+    padding: 100px 0;
+  }
+  /* ------------- About Section ------------------- */
+  .about_content {
+    text-align: center;
+  }
+  .about_content .button_one {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* ------------- Sponsor Section ---------------- */
+  .sponsor_area {
+    padding: 0 10px;
+  }
+  .sponsor_cont {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  /* ------------- Counter area ------------------- */
+  .counter_area {
+    padding: 80px 0;
+  }
+  .counter_box {
+    padding: 25px 20px;
+    text-align: center;
+  }
+  .counter_box .counter {
+    padding-bottom: 0;
+  }
+  .core_box ul {
+    gap: 10px;
+  }
+
+  /* -------------- Core Section -------------------- */
+  .core_section {
+    padding-bottom: 80px;
+  }
+  .core_box {
+    padding: 40px 25px;
+  }
+  .core_box .title_28 {
+    padding-top: 40px;
+    padding-bottom: 16px;
+  }
+  .core_box {
+    padding: 30px 25px;
+    text-align: left;
+  }
+  .customer_section .core_box .title_28 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .core_box ul li {
+    text-align: left;
+  }
+
+  /* -------------- unique_slider  -------------------- */
+  .unique_slide .core_box {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* -------------- Tab Slider  -------------------- */
+  .tab_slide {
+    padding: 30px;
+    gap: 20px;
+  }
+  .tabSlide_left h3 {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  /* ---------------- Customer Section ---------------- */
+  .customer_section {
+    padding-bottom: 80px;
+  }
+  .customer_section .core_box {
+    padding: 30px 25px;
+    text-align: center;
+}
+  /* ---------------- feature_section ---------------- */
+  .feature_section1.feature_section {
+    margin-bottom: 80px;
+  }
+
+  /* -------------- Owl Nav Styles --------------- */
+  .owl-loaded.owl-drag {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .owl-nav {
+    top: 30px;
+  }
+
+  /* --------------- Feature Area ----------------- */
+  .feature_cont ul {
+    display: grid;
+    gap: 15px;
+    margin-top: 25px;
+  }
+
+  /* -------------- footer Section ---------------- */
+  .footer_contents {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+
+@media (max-width: 575px) {
+  /* -------------- footer Section ---------------- */
+  .footer_contents {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .feature_cont {
+    padding-left: 60px;
+  }
+
+  /* ----------------- About Section ----------------- */
+  .about_section {
+    top: -40px;
+    padding: 0 10px;
+  }
+
+  /* ------------------ Tab Slider ------------------- */
+  .tab_slide_nav {
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scrollbar-width: 0;
+    flex-wrap: nowrap;
+    width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tab_slide_nav::-webkit-scrollbar {
+    scrollbar-width: 0;
+    display: none;
+  }
+}

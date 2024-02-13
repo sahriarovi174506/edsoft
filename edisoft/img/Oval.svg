@@ -1,0 +1,7 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Oval" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="11" cy="11" r="11" stroke="none"/>
+    <circle cx="11" cy="11" r="10.5" fill="none"/>
+  </g>
+  <path id="Triangle" d="M3.566.76a.5.5,0,0,1,.868,0L7.573,6.252A.5.5,0,0,1,7.138,7H.862a.5.5,0,0,1-.434-.748Z" transform="translate(15.167 7) rotate(90)" fill="#fff"/>
+</svg>
